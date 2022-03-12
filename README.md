@@ -47,4 +47,4 @@ ipython kernel install --user --name=<your-env-name>
 ```
 
 ## References
-[Kaggle notebooks, discussions and helpful links](notebooks/references.txt)
+[Kaggle notebooks, discussions and helpful links](notebooks/references.md)
