@@ -29,3 +29,22 @@ where 𝑈 is the number of customers, 𝑃(𝑘) is the precision at cutoff �
 ```
 kaggle competitions download -p input/ -c h-and-m-personalized-fashion-recommendations
 ```
+## Dependencies
+
+```python
+conda env create -f <your-env-name>
+conda activate <your-env-name> # eg: hm-rec
+pip install -r requirements.txt
+
+# if you want to select notebook the same environment as kernel
+# Simply start jupyter notebook after activating the env
+conda activate <your-env-name>
+jupyter notebook
+
+# alternate
+conda install -c anaconda ipykernel ipython_genutils
+ipython kernel install --user --name=<your-env-name>
+```
+
+## References
+[Kaggle notebooks, discussions and helpful links](notebooks/references.txt)
