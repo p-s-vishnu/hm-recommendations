@@ -1,3 +1,8 @@
+# kaggle files
+input/
+meta/
+kernel-metadata*
+
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
